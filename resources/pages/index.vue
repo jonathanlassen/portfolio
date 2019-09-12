@@ -9,14 +9,9 @@
         <link href="https://fonts.googleapis.com/css?family=Cardo" />
         <div class="lg:w-1/5 sm:w-full p-2">
           <h1 class="title">Jonathan Lassen</h1>
-          <div class="bio">
-            Hello! I'm Jonathan Lassen and I'm hitching myself to this crazy
-            thing called the internet. I have experience on the back-end, but
-            have fallen for the fun and responsiveness of front-end frameworks.
-            I'm seeking the learning that will come from working in a team on
-            larger projects. Also, I speak and read Chinese, and
-            love to try foods I've never had before.
-          </div>
+          <div
+            class="bio"
+          >I'm Jonathan Lassen, a full stack developer. I've been developing web applications on the side for years, and have enjoyed it so much I'm now doing it full time. I will admit the constant learning is a complete high for me. I've fallen in love with the responsiveness and order that modern front-end JS frameworks provide (React and Vue are the ones I know best), and am comfortable in the back-end in a number of languages. Check out my projects, or get in touch!</div>
           <div class="links">
             <a
               href="https://www.linkedin.com/in/jonathan-lassen-1b018317a/"
@@ -24,25 +19,62 @@
               class="button--grey"
             >LinkedIn</a>
             <a href="https://github.com/jonathanlassen" target="_blank" class="button--grey">GitHub</a>
-            <a href="jonathan.lassen@gmail.com" target="_blank" class="button--grey">Email</a>
+            <a href="mailto: jonathan.lassen@gmail.com" target="_blank" class="button--grey">Email</a>
           </div>
         </div>
         <div class="lg:w-2/5 sm:w-full p-2">
           <h1 class="selectedprojects">Selected Projects</h1>
 
           <h1 class="title3">Find a Framer</h1>
-          <div class="projecttext">Simple API-driven bookmarks application using jQuery.</div>
+          <div
+            class="projecttext"
+          >Tool for customers to find frame shops, and frame shops to market to potential customers. React, Postgres</div>
           <h2 class="subtitle">
             <img class="imagefilter" src="~/assets/leafscreen.png" />
           </h2>
           <div class="links">
             <a
-              href="https://github.com/jonathanlassen/bookmarkts"
+              href="https://github.com/jonathanlassen/react-leaf"
               target="_blank"
               class="button--grey"
             >GitHub</a>
             <a
-              href="https://jonathanlassen.github.io/bookmarkts/"
+              href="https://react-leaf.jonathanlassen.now.sh/"
+              target="_blank"
+              class="button--grey"
+            >Live</a>
+          </div>
+
+          <h1 class="title3">Mat Matcher</h1>
+          <div
+            class="projecttext"
+          >Innovative tool for picture framers to match mat colors across vendors, and find the closest color match by hex color. Vue, Mysql, Laravel.</div>
+          <h2 class="subtitle">
+            <img class="imagefilter" src="~/assets/matscreen.png" />
+          </h2>
+          <div class="links">
+            <a
+              href="https://pictureframedesigns.com/matmatcher"
+              target="_blank"
+              class="button--grey"
+            >Live</a>
+          </div>
+
+          <h1 class="title3">YTDB</h1>
+          <div
+            class="projecttext"
+          >IMDb for youtube channels. Search our db or Youtube's db for channels by name, topic or keyword. Rate and review them. Add your favorite channels to your dashboard. React, Postgres.</div>
+          <h2 class="subtitle">
+            <img class="imagefilter" src="~/assets/ytdbscreen.png" />
+          </h2>
+          <div class="links">
+            <a
+              href="https://github.com/thinkful-ei-cheetah/YTDB-Client"
+              target="_blank"
+              class="button--grey"
+            >GitHub</a>
+            <a
+              href="https://ytdb-client.jonathanlassen.now.sh/"
               target="_blank"
               class="button--grey"
             >Live</a>
@@ -79,7 +111,7 @@ export default {
 
 <style>
 .container {
-  @apply flex justify-center items-center text-center mx-auto max-w-full min-h-screen flex-row flex-wrap;
+  @apply flex justify-center items-start text-center mx-auto max-w-full min-h-screen flex-row flex-wrap;
 }
 .container2 {
   background-color: hsla(40, 4%, 14%, 0.98);
@@ -90,6 +122,7 @@ export default {
   @apply font-sans;
   font-size: 50px;
   color: #9fa8a3;
+  padding-top: 25px;
 }
 
 .title2 {
