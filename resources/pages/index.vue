@@ -1,28 +1,20 @@
 <template>
   <section
-    class="min-h-screen bg-cover bg-center "
+    class="min-h-screen bg-cover bg-center"
     style="background-image: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')"
   >
     <div class="container2">
       <div class="container">
-        <link
-          href="https://fonts.googleapis.com/css?family=Montserrat"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css?family=Cardo"
-          rel="stylesheet"
-        />
-        <div class="lg:w-1/5 sm:w-full p-2 ">
-          <h1 class="title">
-            Jonathan Lassen
-          </h1>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" />
+        <link href="https://fonts.googleapis.com/css?family=Cardo" />
+        <div class="lg:w-1/5 sm:w-full p-2">
+          <h1 class="title">Jonathan Lassen</h1>
           <div class="bio">
             Hello! I'm Jonathan Lassen and I'm hitching myself to this crazy
             thing called the internet. I have experience on the back-end, but
             have fallen for the fun and responsiveness of front-end frameworks.
             I'm seeking the learning that will come from working in a team on
-            larger projects. Also, I speak and read Chinese (skr skr, see?), and
+            larger projects. Also, I speak and read Chinese, and
             love to try foods I've never had before.
           </div>
           <div class="links">
@@ -30,32 +22,34 @@
               href="https://www.linkedin.com/in/jonathan-lassen-1b018317a/"
               target="_blank"
               class="button--grey"
-              >LinkedIn</a
-            >
-            <a
-              href="https://github.com/jonathanlassen"
-              target="_blank"
-              class="button--grey"
-              >GitHub</a
-            >
-            <a
-              href="jonathan.lassen@gmail.com"
-              target="_blank"
-              class="button--grey"
-              >Email</a
-            >
+            >LinkedIn</a>
+            <a href="https://github.com/jonathanlassen" target="_blank" class="button--grey">GitHub</a>
+            <a href="jonathan.lassen@gmail.com" target="_blank" class="button--grey">Email</a>
           </div>
         </div>
         <div class="lg:w-2/5 sm:w-full p-2">
-          <h1 class="selectedprojects">
-            Selected Projects
-          </h1>
-          <h1 class="title3">
-            Bookmarks
-          </h1>
-          <div class="projecttext">
-            Simple API-driven bookmarks application using jQuery.
+          <h1 class="selectedprojects">Selected Projects</h1>
+
+          <h1 class="title3">Find a Framer</h1>
+          <div class="projecttext">Simple API-driven bookmarks application using jQuery.</div>
+          <h2 class="subtitle">
+            <img class="imagefilter" src="~/assets/leafscreen.png" />
+          </h2>
+          <div class="links">
+            <a
+              href="https://github.com/jonathanlassen/bookmarkts"
+              target="_blank"
+              class="button--grey"
+            >GitHub</a>
+            <a
+              href="https://jonathanlassen.github.io/bookmarkts/"
+              target="_blank"
+              class="button--grey"
+            >Live</a>
           </div>
+
+          <h1 class="title3">Bookmarks</h1>
+          <div class="projecttext">Simple API-driven bookmarks application using jQuery.</div>
           <h2 class="subtitle">
             <img class="imagefilter" src="~/assets/bookmarks.png" />
           </h2>
@@ -64,14 +58,12 @@
               href="https://github.com/jonathanlassen/bookmarkts"
               target="_blank"
               class="button--grey"
-              >GitHub</a
-            >
+            >GitHub</a>
             <a
               href="https://jonathanlassen.github.io/bookmarkts/"
               target="_blank"
               class="button--grey"
-              >Live</a
-            >
+            >Live</a>
           </div>
         </div>
       </div>
