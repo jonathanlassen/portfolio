@@ -28,7 +28,7 @@
           <h1 class="title3">Find a Framer</h1>
           <div
             class="projecttext"
-          >Tool for customers to find frame shops, and frame shops to market to potential customers. React, Nodejs, Express, PostgreSql, Knex,.</div>
+          >Tool for customers to find frame shops, and frame shops to market to potential customers. React, Nodejs, Express, PostgreSql, Knex.</div>
           <h2 class="subtitle">
             <img
               class="imagefilter"
