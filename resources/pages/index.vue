@@ -11,7 +11,7 @@
           <h1 class="title">Jonathan Lassen</h1>
           <div
             class="bio"
-          >I'm Jonathan Lassen, a full stack developer. I've been developing web applications on the side for years, and have enjoyed it so much I'm now doing it full time. I will admit the constant learning is a complete high for me. I've fallen in love with the responsiveness and order that modern front-end JS frameworks provide (React and Vue are the ones I know best), and am comfortable in the back-end in a number of languages. Check out my projects, or get in touch!</div>
+          >I'm Jonathan Lassen, a full stack developer. I've been developing web applications on the side for years, and have enjoyed it so much I'm now doing it full time. I will admit the constant learning is a complete high for me. I've fallen in love with the responsiveness and order that modern front-end JS frameworks provide (React and Vue are the ones I know best), and am comfortable in the back-end in a number of languages. I am excited to continue to learn and grow on a larger team. Check out my projects, or get in touch! Other than coding, my interests include: traveling (I spent nearly a decade in China and am fluent in Mandarin), exploring new foods, and busting my brain in no-luck modern boardgames.</div>
           <div class="links">
             <a
               href="https://www.linkedin.com/in/jonathan-lassen/"
