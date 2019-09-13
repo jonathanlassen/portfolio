@@ -28,7 +28,7 @@
           <h1 class="title3">Find a Framer</h1>
           <div
             class="projecttext"
-          >Tool for customers to find frame shops, and frame shops to market to potential customers. React, Postgres.</div>
+          >Tool for customers to find frame shops, and frame shops to market to potential customers. React, Nodejs, Express, PostgreSql, Knex,.</div>
           <h2 class="subtitle">
             <img
               class="imagefilter"
@@ -71,7 +71,7 @@
           <h1 class="title3">YTDB</h1>
           <div
             class="projecttext"
-          >IMDb for youtube channels. Search our db or Youtube's db for channels by name, topic or keyword. Rate and review them. Add your favorite channels to your dashboard. React, Postgres.</div>
+          >IMDb for youtube channels. Search our db or Youtube's db for channels by name, topic or keyword. Rate and review them. Add your favorite channels to your dashboard. React, Nodejs, Express, PostgreSql, Cypress.</div>
           <h2 class="subtitle">
             <img
               class="imagefilter"
