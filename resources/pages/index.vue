@@ -14,7 +14,7 @@
           >I'm Jonathan Lassen, a full stack developer. I've been developing web applications on the side for years, and have enjoyed it so much I'm now doing it full time. I will admit the constant learning is a complete high for me. I've fallen in love with the responsiveness and order that modern front-end JS frameworks provide (React and Vue are the ones I know best), and am comfortable in the back-end in a number of languages. Check out my projects, or get in touch!</div>
           <div class="links">
             <a
-              href="https://www.linkedin.com/in/jonathan-lassen-1b018317a/"
+              href="https://www.linkedin.com/in/jonathan-lassen/"
               target="_blank"
               class="button--grey"
             >LinkedIn</a>
@@ -30,7 +30,7 @@
             class="projecttext"
           >Tool for customers to find frame shops, and frame shops to market to potential customers. React, Postgres</div>
           <h2 class="subtitle">
-            <img class="imagefilter" src="~/assets/leafscreen.png" />
+            <img class="imagefilter" src="~/assets/matcher.jpg" />
           </h2>
           <div class="links">
             <a
@@ -81,7 +81,9 @@
           </div>
 
           <h1 class="title3">Bookmarks</h1>
-          <div class="projecttext">Simple API-driven bookmarks application using jQuery.</div>
+          <div
+            class="projecttext"
+          >Simple API-driven bookmarks application using jQuery / HTML / CSS.</div>
           <h2 class="subtitle">
             <img class="imagefilter" src="~/assets/bookmarks.png" />
           </h2>
@@ -161,6 +163,8 @@ export default {
   color: #e3e0cf;
   margin-top: 15px;
   text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
   @apply leading-normal;
 }
 
@@ -172,7 +176,7 @@ export default {
   text-align: left;
   @apply leading-normal;
   padding-left: 80px;
-  paddding-right: 80px;
+  padding-right: 80px;
 }
 
 .imagefilter {
