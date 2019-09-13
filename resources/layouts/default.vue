@@ -43,7 +43,6 @@ html {
   color: #c5d5db;
   text-decoration: none;
   padding: 10px 10px;
-  margin-left: 15px;
 }
 
 .button--grey:hover {

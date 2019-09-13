@@ -28,9 +28,13 @@
           <h1 class="title3">Find a Framer</h1>
           <div
             class="projecttext"
-          >Tool for customers to find frame shops, and frame shops to market to potential customers. React, Postgres</div>
+          >Tool for customers to find frame shops, and frame shops to market to potential customers. React, Postgres.</div>
           <h2 class="subtitle">
-            <img class="imagefilter" src="~/assets/matcher.jpg" />
+            <img
+              class="imagefilter"
+              src="~/assets/matcher.jpg"
+              alt="find a framer application screenshot"
+            />
           </h2>
           <div class="links">
             <a
@@ -50,7 +54,11 @@
             class="projecttext"
           >Innovative tool for picture framers to match mat colors across vendors, and find the closest color match by hex color. Vue, Mysql, Laravel.</div>
           <h2 class="subtitle">
-            <img class="imagefilter" src="~/assets/matscreen.png" />
+            <img
+              class="imagefilter"
+              src="~/assets/matscreen.png"
+              alt="mat matching application screenshot"
+            />
           </h2>
           <div class="links">
             <a
@@ -65,7 +73,11 @@
             class="projecttext"
           >IMDb for youtube channels. Search our db or Youtube's db for channels by name, topic or keyword. Rate and review them. Add your favorite channels to your dashboard. React, Postgres.</div>
           <h2 class="subtitle">
-            <img class="imagefilter" src="~/assets/ytdbscreen.png" />
+            <img
+              class="imagefilter"
+              src="~/assets/ytdbscreen.png"
+              alt="YTDB application screenshot"
+            />
           </h2>
           <div class="links">
             <a
@@ -85,7 +97,11 @@
             class="projecttext"
           >Simple API-driven bookmarks application using jQuery / HTML / CSS.</div>
           <h2 class="subtitle">
-            <img class="imagefilter" src="~/assets/bookmarks.png" />
+            <img
+              class="imagefilter"
+              src="~/assets/bookmarks.png"
+              alt="bookmarks application screenshot"
+            />
           </h2>
           <div class="links">
             <a
@@ -125,6 +141,8 @@ export default {
   font-size: 50px;
   color: #9fa8a3;
   padding-top: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .title2 {
@@ -137,15 +155,16 @@ export default {
   @apply font-sans;
   font-size: 30px;
   color: #9fa8a3;
-  border-bottom: 1px solid #444;
-  padding: 10px;
+  padding-top: 25px;
 }
 
 .title3 {
   @apply font-sans;
   font-size: 20px;
   color: #9fa8a3;
-  margin-top: 15px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #444;
 }
 
 .subtitle {
@@ -181,12 +200,18 @@ export default {
 
 .imagefilter {
   filter: contrast(80%);
-  filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.9));
-  border-radius: 10px;
-  margin: 20px;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .links {
-  padding-top: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+a {
+  padding: 0;
+  margin: 0;
 }
 </style>
